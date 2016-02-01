@@ -13,6 +13,7 @@
    {applications, [
         exometer,
         folsom,
+        lager,
         cloudi_core,
         key2value,
         stdlib,
