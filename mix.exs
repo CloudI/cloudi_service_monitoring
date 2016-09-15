@@ -3,7 +3,7 @@ defmodule CloudIServiceMonitoring do
 
   def project do
     [app: :cloudi_service_monitoring,
-     version: "1.5.1",
+     version: "1.5.3",
      language: :erlang,
      description: description,
      package: package,
@@ -15,8 +15,8 @@ defmodule CloudIServiceMonitoring do
       [git: "https://github.com/Feuerlabs/exometer.git",
        tag: "1.2.1"]},
      {:folsom, "~> 0.8.3"},
-     {:cloudi_core, "~> 1.5.1"},
-     {:key2value, "~> 1.5.1"}]
+     {:cloudi_core, "~> 1.5.3"},
+     {:key2value, "~> 1.5.3"}]
   end
 
   defp description do
