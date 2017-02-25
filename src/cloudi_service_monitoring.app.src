@@ -12,8 +12,7 @@
    {registered, []},
    {applications, [
         exometer,
-        folsom,
-        lager,
+        exometer_influxdb,
         cloudi_core,
         key2value,
         stdlib,
