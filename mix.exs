@@ -1,9 +1,12 @@
+#-*-Mode:elixir;coding:utf-8;tab-width:2;c-basic-offset:2;indent-tabs-mode:()-*-
+# ex: set ft=elixir fenc=utf-8 sts=2 ts=2 sw=2 et nomod:
+
 defmodule CloudIServiceMonitoring do
   use Mix.Project
 
   def project do
     [app: :cloudi_service_monitoring,
-     version: "1.6.0",
+     version: "1.7.0",
      language: :erlang,
      description: description(),
      package: package(),
@@ -13,10 +16,10 @@ defmodule CloudIServiceMonitoring do
   defp deps do
     [{:exometer,
       [git: "https://github.com/Feuerlabs/exometer.git",
-       tag: "1.2.1"]},
+       ref: "7a7bd8d2b52de4d90f65aa3f6044b0e988319b9e"]},
      {:folsom, "~> 0.8.3"},
-     {:cloudi_core, "~> 1.6.0"},
-     {:key2value, "~> 1.6.0"}]
+     {:cloudi_core, "~> 1.7.0"},
+     {:key2value, "~> 1.7.0"}]
   end
 
   defp description do
