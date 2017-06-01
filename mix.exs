@@ -29,7 +29,7 @@ defmodule CloudIServiceMonitoring do
   defp package do
     [files: ~w(src doc rebar.config README.markdown),
      maintainers: ["Michael Truog"],
-     licenses: ["BSD"],
+     licenses: ["MIT"],
      links: %{"Website" => "http://cloudi.org",
               "GitHub" => "https://github.com/CloudI/" <>
                           "cloudi_service_monitoring"}]
