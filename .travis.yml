@@ -12,6 +12,9 @@ branches:
   only:
     - master
 notifications:
+  email:
+    recipients:
+      - mjtruog@gmail.com
   irc:
     channels:
       - "chat.freenode.net#cloudi"
