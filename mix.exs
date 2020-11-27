@@ -6,7 +6,7 @@ defmodule CloudIServiceMonitoring do
 
   def project do
     [app: :cloudi_service_monitoring,
-     version: "2.0.0",
+     version: "2.0.1",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -31,8 +31,8 @@ defmodule CloudIServiceMonitoring do
   defp deps do
     [{:exometer_core, "~> 1.5.2"},
      {:folsom, "~> 0.8.5"},
-     {:cloudi_core, "~> 2.0.0"},
-     {:key2value, "~> 2.0.0"}]
+     {:cloudi_core, "~> 2.0.1"},
+     {:key2value, "~> 2.0.1"}]
   end
 
   defp description do
@@ -40,7 +40,7 @@ defmodule CloudIServiceMonitoring do
   end
 
   defp package do
-    [files: ~w(src doc rebar.config README.markdown),
+    [files: ~w(src doc rebar.config README.markdown LICENSE),
      maintainers: ["Michael Truog"],
      licenses: ["MIT"],
      links: %{"Website" => "https://cloudi.org",
