@@ -29,8 +29,8 @@ defmodule CloudIServiceMonitoring do
   end
 
   defp deps do
-    [{:exometer_core, "~> 1.5.2"},
-     {:folsom, "~> 0.8.5"},
+    [{:exometer_core, "~> 1.5.7"},
+     {:folsom, "~> 0.8.7"},
      {:cloudi_core, "~> 2.0.1"},
      {:key2value, "~> 2.0.1"}]
   end
