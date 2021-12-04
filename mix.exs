@@ -6,7 +6,7 @@ defmodule CloudIServiceMonitoring do
 
   def project do
     [app: :cloudi_service_monitoring,
-     version: "2.0.3",
+     version: "2.0.4",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -29,10 +29,10 @@ defmodule CloudIServiceMonitoring do
   end
 
   defp deps do
-    [{:exometer_core, "~> 1.5.7", app: false},
-     {:folsom, "~> 1.0.0", app: false},
-     {:cloudi_core, "~> 2.0.3", app: false},
-     {:key2value, "~> 2.0.3", app: false}]
+    [{:exometer_core, ">= 1.5.7"},
+     {:folsom, ">= 1.0.0"},
+     {:cloudi_core, ">= 2.0.4"},
+     {:key2value, ">= 2.0.4"}]
   end
 
   defp description do
