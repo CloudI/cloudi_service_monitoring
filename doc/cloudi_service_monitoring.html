@@ -17,9 +17,9 @@ Erlang VM and CloudI.  To disable the update, set the interval to
 undefined.</p>.
 <p>Copyright © 2015-2022 Michael Truog</p>
 
-<p><b>Version:</b> 2.0.5 Jun 20 2023 21:15:52
+<p><b>Version:</b> 2.0.5 Oct 26 2023 14:50:24
   ------------------------------------------------------------------------</p>
-<p><b>Behaviours:</b> <a href="deps/cloudi_core/doc/cloudi_service.html"><tt>cloudi_service</tt></a>.</p>
+<p><b>Behaviours:</b> <a href="_build/default/lib/cloudi_core/doc/cloudi_service.html"><tt>cloudi_service</tt></a>.</p>
 <p><b>Authors:</b> Michael Truog (<a href="mailto:mjtruog at protonmail dot com"><tt>mjtruog at protonmail dot com</tt></a>).</p>
 
 <h2><a name="description">Description</a></h2>
@@ -70,7 +70,7 @@ programmatically.</p>
 
 
 <h3 class="typedecl"><a name="type-driver_exometer">driver_exometer()</a></h3>
-<p><tt>driver_exometer() = {exometer, Reporters::[{<a href="#type-exometer_reporter_name">exometer_reporter_name()</a>, <a href="#type-exometer_reporter_extra">exometer_reporter_extra()</a>}, ...], Interval::<a href="#type-exometer_interval">exometer_interval()</a>, Owner::<a href="deps/cloudi_core/doc/cloudi_service.html#type-source">cloudi_service:source()</a>}</tt></p>
+<p><tt>driver_exometer() = {exometer, Reporters::[{<a href="#type-exometer_reporter_name">exometer_reporter_name()</a>, <a href="#type-exometer_reporter_extra">exometer_reporter_extra()</a>}, ...], Interval::<a href="#type-exometer_interval">exometer_interval()</a>, Owner::<a href="_build/default/lib/cloudi_core/doc/cloudi_service.html#type-source">cloudi_service:source()</a>}</tt></p>
 <p> supported drivers</p>
 
 <h3 class="typedecl"><a name="type-exometer_interval">exometer_interval()</a></h3>
@@ -159,7 +159,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="add-1">add/1</a></h3>
 <div class="spec">
-<p><tt>add(Internal::<a href="deps/cloudi_core/doc/cloudi_service_api.html#type-service_internal">cloudi_service_api:service_internal()</a> | <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-service_external">cloudi_service_api:service_external()</a> | <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-service_proplist">cloudi_service_api:service_proplist()</a>) -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-service_internal">cloudi_service_api:service_internal()</a> | <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-service_external">cloudi_service_api:service_external()</a> | <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-service_proplist">cloudi_service_api:service_proplist()</a></tt><br></p>
+<p><tt>add(Internal::<a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-service_internal">cloudi_service_api:service_internal()</a> | <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-service_external">cloudi_service_api:service_external()</a> | <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-service_proplist">cloudi_service_api:service_proplist()</a>) -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-service_internal">cloudi_service_api:service_internal()</a> | <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-service_external">cloudi_service_api:service_external()</a> | <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-service_proplist">cloudi_service_api:service_proplist()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Add_cloudi_service_monitoring_service_configuration_options.">Add cloudi_service_monitoring service configuration options.</a></h4>
@@ -168,7 +168,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_info_after_internal-0">aspect_info_after_internal/0</a></h3>
 <div class="spec">
-<p><tt>aspect_info_after_internal() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_info_after_internal_f">cloudi_service_api:aspect_info_after_internal_f()</a></tt><br></p>
+<p><tt>aspect_info_after_internal() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_info_after_internal_f">cloudi_service_api:aspect_info_after_internal_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_info_after_service_configuration_option.">Function for aspects_info_after service configuration option.</a></h4>
@@ -176,7 +176,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_info_before_internal-0">aspect_info_before_internal/0</a></h3>
 <div class="spec">
-<p><tt>aspect_info_before_internal() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_info_before_internal_f">cloudi_service_api:aspect_info_before_internal_f()</a></tt><br></p>
+<p><tt>aspect_info_before_internal() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_info_before_internal_f">cloudi_service_api:aspect_info_before_internal_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_info_before_service_configuration_option.">Function for aspects_info_before service configuration option.</a></h4>
@@ -184,7 +184,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_init_after_external-0">aspect_init_after_external/0</a></h3>
 <div class="spec">
-<p><tt>aspect_init_after_external() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_init_after_external_f">cloudi_service_api:aspect_init_after_external_f()</a></tt><br></p>
+<p><tt>aspect_init_after_external() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_init_after_external_f">cloudi_service_api:aspect_init_after_external_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_init_after_service_configuration_option.">Function for aspects_init_after service configuration option.</a></h4>
@@ -192,7 +192,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_init_after_internal-0">aspect_init_after_internal/0</a></h3>
 <div class="spec">
-<p><tt>aspect_init_after_internal() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_init_after_internal_f">cloudi_service_api:aspect_init_after_internal_f()</a></tt><br></p>
+<p><tt>aspect_init_after_internal() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_init_after_internal_f">cloudi_service_api:aspect_init_after_internal_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_init_after_service_configuration_option.">Function for aspects_init_after service configuration option.</a></h4>
@@ -200,7 +200,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_log_after-0">aspect_log_after/0</a></h3>
 <div class="spec">
-<p><tt>aspect_log_after() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_log_f">cloudi_service_api:aspect_log_f()</a></tt><br></p>
+<p><tt>aspect_log_after() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_log_f">cloudi_service_api:aspect_log_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_log_after_logging_configuration_option.">Function for aspects_log_after logging configuration option.</a></h4>
@@ -208,7 +208,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_log_before-0">aspect_log_before/0</a></h3>
 <div class="spec">
-<p><tt>aspect_log_before() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_log_f">cloudi_service_api:aspect_log_f()</a></tt><br></p>
+<p><tt>aspect_log_before() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_log_f">cloudi_service_api:aspect_log_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_log_before_logging_configuration_option.">Function for aspects_log_before logging configuration option.</a></h4>
@@ -216,7 +216,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_request_after_external-0">aspect_request_after_external/0</a></h3>
 <div class="spec">
-<p><tt>aspect_request_after_external() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_after_external_f">cloudi_service_api:aspect_request_after_external_f()</a></tt><br></p>
+<p><tt>aspect_request_after_external() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_after_external_f">cloudi_service_api:aspect_request_after_external_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_request_after_service_configuration_option.">Function for aspects_request_after service configuration option.</a></h4>
@@ -224,7 +224,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_request_after_internal-0">aspect_request_after_internal/0</a></h3>
 <div class="spec">
-<p><tt>aspect_request_after_internal() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_after_internal_f">cloudi_service_api:aspect_request_after_internal_f()</a></tt><br></p>
+<p><tt>aspect_request_after_internal() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_after_internal_f">cloudi_service_api:aspect_request_after_internal_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_request_after_service_configuration_option.">Function for aspects_request_after service configuration option.</a></h4>
@@ -232,7 +232,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_request_before_external-0">aspect_request_before_external/0</a></h3>
 <div class="spec">
-<p><tt>aspect_request_before_external() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_before_external_f">cloudi_service_api:aspect_request_before_external_f()</a></tt><br></p>
+<p><tt>aspect_request_before_external() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_before_external_f">cloudi_service_api:aspect_request_before_external_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_request_before_service_configuration_option.">Function for aspects_request_before service configuration option.</a></h4>
@@ -240,7 +240,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_request_before_internal-0">aspect_request_before_internal/0</a></h3>
 <div class="spec">
-<p><tt>aspect_request_before_internal() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_before_internal_f">cloudi_service_api:aspect_request_before_internal_f()</a></tt><br></p>
+<p><tt>aspect_request_before_internal() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_request_before_internal_f">cloudi_service_api:aspect_request_before_internal_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_request_before_service_configuration_option.">Function for aspects_request_before service configuration option.</a></h4>
@@ -248,7 +248,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_terminate_before_external-0">aspect_terminate_before_external/0</a></h3>
 <div class="spec">
-<p><tt>aspect_terminate_before_external() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_terminate_before_external_f">cloudi_service_api:aspect_terminate_before_external_f()</a></tt><br></p>
+<p><tt>aspect_terminate_before_external() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_terminate_before_external_f">cloudi_service_api:aspect_terminate_before_external_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_terminate_before_service_configuration_option.">Function for aspects_terminate_before service configuration option.</a></h4>
@@ -256,7 +256,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="aspect_terminate_before_internal-0">aspect_terminate_before_internal/0</a></h3>
 <div class="spec">
-<p><tt>aspect_terminate_before_internal() -&gt; <a href="deps/cloudi_core/doc/cloudi_service_api.html#type-aspect_terminate_before_internal_f">cloudi_service_api:aspect_terminate_before_internal_f()</a></tt><br></p>
+<p><tt>aspect_terminate_before_internal() -&gt; <a href="_build/default/lib/cloudi_core/doc/cloudi_service_api.html#type-aspect_terminate_before_internal_f">cloudi_service_api:aspect_terminate_before_internal_f()</a></tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Function_for_aspects_terminate_before_service_configuration_option.">Function for aspects_terminate_before service configuration option.</a></h4>
@@ -288,7 +288,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="update_or_create-4">update_or_create/4</a></h3>
 <div class="spec">
-<p><tt>update_or_create(Service::<a href="deps/cloudi_core/doc/cloudi_service.html#type-source">cloudi_service:source()</a> | undefined, Type::<a href="#type-metric_type">metric_type()</a>, Name::<a href="#type-metric_name">metric_name()</a>, Value::<a href="#type-metric_value">metric_value()</a>) -&gt; ok | {error, any()}</tt><br></p>
+<p><tt>update_or_create(Service::<a href="_build/default/lib/cloudi_core/doc/cloudi_service.html#type-source">cloudi_service:source()</a> | undefined, Type::<a href="#type-metric_type">metric_type()</a>, Name::<a href="#type-metric_name">metric_name()</a>, Value::<a href="#type-metric_value">metric_value()</a>) -&gt; ok | {error, any()}</tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Update/Create_a_metric.">Update/Create a metric.</a></h4>
@@ -297,7 +297,7 @@ programmatically.</p>
 
 <h3 class="function"><a name="update_or_create-5">update_or_create/5</a></h3>
 <div class="spec">
-<p><tt>update_or_create(Service::<a href="deps/cloudi_core/doc/cloudi_service.html#type-source">cloudi_service:source()</a>, Type::<a href="#type-metric_type">metric_type()</a>, Name::<a href="#type-metric_name">metric_name()</a>, Value::<a href="#type-metric_value">metric_value()</a>, Options::[{service_metric, boolean()}]) -&gt; ok | {error, any()}</tt><br></p>
+<p><tt>update_or_create(Service::<a href="_build/default/lib/cloudi_core/doc/cloudi_service.html#type-source">cloudi_service:source()</a>, Type::<a href="#type-metric_type">metric_type()</a>, Name::<a href="#type-metric_name">metric_name()</a>, Value::<a href="#type-metric_value">metric_value()</a>, Options::[{service_metric, boolean()}]) -&gt; ok | {error, any()}</tt><br></p>
 <p> </p>
 </div><p>
   <h4><a name="Update/Create_a_metric_with_options.">Update/Create a metric with options.</a></h4>
